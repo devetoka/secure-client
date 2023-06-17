@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+input[type="radio"]:checked  {
+    accent-color: #00DFA2;
+
+  }
+
+.fade {
+    animation: fade 2s linear;
+}
+
+@keyframes fade {
+    0% { opacity: 0 }
+    75%, 100% { opacity: 1 }
+}
